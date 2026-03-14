@@ -14,12 +14,12 @@
 5. Po zalogowaniu sie do bazy H2 pojawi sie poniższy interfejs graficzny z listingiem wszystkich tabel (po lewej) oraz
    miejscem na wprowadzania komend sql ![](H2_console_tables.png)✅
 6. W pom.xml zmień nazwę wersji aplikacji na własną przy zachowaniu zasady '1.2.0-NumerIndeksu1-NumerIndeksu2-SNAPSHOT' ✅ 
-7. Wypushuj zmiany do repozytorium.
+7. Wypushuj zmiany do repozytorium. ✅
 
 8. Jeśli zmieniasz nazwy tabel, pamiętaj o wywołaniu komendy "drop all objects" - inaczej Hibernate utworzy na nowo
    tylko znane mu aktualnie tabele, zostawiając poprzednie nietknięte, co może być mocno mylące.
-9. Zmień tymczasowo port aplikacji na 8091 (w application.properties) i uruchom aplikację ponownie.
-10. Wypushuj zmiany do repozytorium.
+9. Zmień tymczasowo port aplikacji na 8091 (w application.properties) i uruchom aplikację ponownie. ✅
+10. Wypushuj zmiany do repozytorium.✅
 11. Zapoznaj się z poniższym schematem relacyjnym bazy danych. Korzystając z wiedzy przekazanej na wykładzie, literatury
     oraz internetu zbuduj tabele HealthMetrcis.
 
