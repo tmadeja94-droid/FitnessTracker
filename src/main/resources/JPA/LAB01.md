@@ -21,7 +21,7 @@
 9. Zmień tymczasowo port aplikacji na 8091 (w application.properties) i uruchom aplikację ponownie. ✅
 10. Wypushuj zmiany do repozytorium.✅ - test
 11. Zapoznaj się z poniższym schematem relacyjnym bazy danych. Korzystając z wiedzy przekazanej na wykładzie, literatury
-    oraz internetu zbuduj tabele HealthMetrcis.
+    oraz internetu zbuduj tabele HealthMetrcis. ✅
 
 Zgłoś prowadzącemu chęć oddania zadania do oceny.
 
