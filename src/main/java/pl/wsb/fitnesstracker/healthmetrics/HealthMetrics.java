@@ -36,4 +36,12 @@ public class HealthMetrics {
     @Column(name = "hearthRate", nullable = false)
     private int hearthRate;
 
+    public HealthMetrics(@Nullable Long id, @Nullable Long user_id, LocalDate date, int weight, int height, int hearthRate) {
+        this.id = id;
+        this.user_id = user_id;
+        this.date = date;
+        this.weight = weight;
+        this.height = height;
+        this.hearthRate = hearthRate;
+    }
 }
